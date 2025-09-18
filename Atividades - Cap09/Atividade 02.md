@@ -33,15 +33,15 @@ func main() {
    ```
 
 **Questões:**
-- O que acontece com a ordem das mensagens exibidas?
+1. O que acontece com a ordem das mensagens exibidas?
 
 - **Resposta:** As mensagens da função normal e da corrotina aparecem intercaladas, mas a ordem exata pode variar a cada execução.
 
-- Por que as mensagens da corrotina e da função normal se intercalam?
+2. Por que as mensagens da corrotina e da função normal se intercalam?
 
 - **Resposta:** Porque o Go executa a função escrever("Corrotina") em paralelo, enquanto o programa continua rodando escrever("Função normal"). O escalonador da linguagem alterna entre as duas execuções.
 
-- Relacione esse comportamento com a definição de **corrotinas** estudada no Capítulo 9.
+3. Relacione esse comportamento com a definição de **corrotinas** estudada no Capítulo 9.
 
 - **Resposta:** Corrotinas permitem múltiplos pontos de execução e preservam o estado entre suspensões. Esse comportamento é visto aqui: a corrotina e a função normal compartilham o tempo de execução, e o Go controla quando cada uma avança, gerando a interlevação das mensagens.
 
