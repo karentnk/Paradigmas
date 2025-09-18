@@ -12,7 +12,7 @@ end
    - A primeira versão recebendo o parâmetro **por valor**.
    - A segunda versão recebendo o parâmetro **por referência** (usando ponteiros).
 
-```text
+```c
 //Por valor
 #include <stdio.h>
 
@@ -35,7 +35,7 @@ void dobrarReferencia(int *x) {
    - Chame a função `dobrar` por valor e exiba o resultado.
    - Chame a função `dobrar` por referência e exiba o resultado.
 
-```text
+```c
 #include <stdio.h>
 
 void dobrarValor(int x) {
