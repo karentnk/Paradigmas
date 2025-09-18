@@ -67,13 +67,13 @@ Por referencia: 20
 ```
 
 **Questões:**
-- Qual a diferença observada entre as duas versões?
+1. Qual a diferença observada entre as duas versões?
 - **Resposta:** Na chamada por valor, a variável original não muda, só a cópia interna da função.Já chamada por referência, a variável original é alterada.
 
-- Por que o valor da variável só se altera na versão por referência?
+2. Por que o valor da variável só se altera na versão por referência?
 - **Resposta:** Porque na passagem por valor a função recebe apenas uma cópia. Já na referência, a função recebe o endereço de memória e altera diretamente a variável original.
 
-- Relacione essa diferença com as estratégias de passagem de parâmetros discutidas no Capítulo 9.
+3. Relacione essa diferença com as estratégias de passagem de parâmetros discutidas no Capítulo 9.
 - **Resposta:** A passagem por valor é mais segura e evita efeitos colaterais, mas não permite alterar o argumento original. Já a passagem por referência é eficiente e permite modificar a variável fora da função, mas pode gerar efeitos colaterais indesejados. Esse exercício mostra exatamente essa diferença prática.
 ---
 
