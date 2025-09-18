@@ -9,8 +9,8 @@ Historicamente, o `goto` foi usado para resolver diferentes tipos de desvio. Hoj
    - Pare imediatamente a execução ao encontrar o número 0 (`break`).
    - Pule os números negativos sem processá-los (`continue`).
    - Retorne o dobro do primeiro número par encontrado (`return`).
-
-   #include <stdio.h>
+```c
+#include <stdio.h>
 
 int processa_lista(int numeros[], int tamanho) {
     for (int i = 0; i < tamanho; i++) {
@@ -40,7 +40,7 @@ int main() {
 
     return 0;
 }
-
+```
 2. Comente sobre como seria a implementação desse mesmo programa utilizando apenas `goto` e rótulos, destacando as vantagens da abordagem moderna.
 
-Se esse programa fosse escrito só com goto, seria preciso criar vários rótulos para controlar quando parar, quando pular e quando sair da função. Isso deixaria o código bem mais confuso, porque os saltos quebram o fluxo natural da leitura. Usando break, continue e return, o código fica mais simples, direto e fácil de entender, mostrando claramente a intenção de cada comando.
+- **Resposta:** Se esse programa fosse escrito só com goto, seria preciso criar vários rótulos para controlar quando parar, quando pular e quando sair da função. Isso deixaria o código bem mais confuso, porque os saltos quebram o fluxo natural da leitura. Usando break, continue e return, o código fica mais simples, direto e fácil de entender, mostrando claramente a intenção de cada comando.
