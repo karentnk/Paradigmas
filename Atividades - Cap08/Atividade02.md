@@ -9,7 +9,7 @@ Muitos programas oferecem menus interativos. Suponha que você precisa implement
 
 **Tarefas:**
 1. Implemente esse menu em **C** utilizando `switch/case`.
-
+```c
 #include <stdio.h>
 int fatorial(int n) {
     int fat = 1;
@@ -49,9 +49,9 @@ int main() {
     } while (opcao != 3);
     return 0;
 }
-
+```
 2. Implemente o mesmo menu em **Python**, utilizando apenas `if/elif/else`.
-
+```c
 def fatorial(n):
     fat = 1
     for i in range(1, n + 1):
@@ -76,14 +76,14 @@ while True:
         break
     else:
         print("Opcao invalida")
-
+```
 3. Execute os dois programas e compare as soluções em relação à clareza e quantidade de código.
 
-No programa em C, usando switch/case, o código ficou maior porque foi necessário declarar variáveis com tipos, criar uma função para o fatorial e usar scanf e printf para interação. Já no Python, usando apenas if/elif/else, a implementação ficou mais curta e fácil de entender, pois não precisamos declarar tipos e a sintaxe é mais simples. Assim, o código em Python acaba sendo mais claro e direto do que o equivalente em C.
+- **Resposta:** No programa em C, usando switch/case, o código ficou maior porque foi necessário declarar variáveis com tipos, criar uma função para o fatorial e usar scanf e printf para interação. Já no Python, usando apenas if/elif/else, a implementação ficou mais curta e fácil de entender, pois não precisamos declarar tipos e a sintaxe é mais simples. Assim, o código em Python acaba sendo mais claro e direto do que o equivalente em C.
 
 4. Escreva um comentário final destacando em qual linguagem foi mais simples de implementar e justificar o motivo.
 
-A versão em Python foi mais simples de implementar porque a linguagem é mais enxuta, não exige declarar tipos e a leitura do código é mais clara. Já em C o programa funciona bem, mas exige mais linhas de código e mais detalhes de implementação.
+- **Resposta:** A versão em Python foi mais simples de implementar porque a linguagem é mais enxuta, não exige declarar tipos e a leitura do código é mais clara. Já em C o programa funciona bem, mas exige mais linhas de código e mais detalhes de implementação.
 
 ---
 
