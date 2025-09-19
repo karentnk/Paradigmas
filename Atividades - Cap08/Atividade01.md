@@ -33,7 +33,7 @@ int main() {
 ```
 
 2. Reescreva novamente utilizando um laço de repetição controlado por contador (`for`).
-3. 
+
 ```c
 #include <stdio.h>
 
